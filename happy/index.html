@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <svg class="path" width="50" height="260" viewBox="0 0 50 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="10" y="10" rx="5" ry="5" width="60" height="240" stroke="#B1B1B1" fill='none' stroke-width="2"/>
+                <line x1="10" x2="30" y1="200" y2="200" stroke="#B1B1B1" fill='none' stroke-width="2"/>
+                <rect x="0" y="210" width="30" height="30" fill='#FFFFFF'/>
+                <line x1="0" x2="20" y1="225" y2="225" stroke="#B1B1B1" fill='none' stroke-width="2"/>
+                <line x1="10" x2="10" y1="215" y2="235" stroke="#B1B1B1" fill='none' stroke-width="2"/>
+            </svg>
+        </div>
+
+        <svg class="flag" width="10.079205mm" height="12.329124mm" viewBox="-0.3 0 10.079204 12.329124">
+            <use xlink:href="sprite.svg#loyalty"></use>
+        </svg>
+        <svg class="diagram" width="250" height="250" viewBox="0 0 250 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle class="unit" r="120" cx="50%" cy="50%" stroke="#ECECEC" stroke-dasharray="600 80" stroke-width="8" stroke-linecap="round" stroke-dashoffset='75'></circle>
+            <circle class="unit" r="120" cx="50%" cy="50%" stroke="#70A84B" transform="rotate(-72, 125, 125)" stroke-width="8" stroke-linecap="round"></circle>
+            <circle class="unit" r="120" cx="50%" cy="50%" stroke="#FCD329" transform="rotate(-72, 125, 125)" stroke-width="8" stroke-linecap="round"></circle>
+        </svg>
+        <div class="info">
+            <p class="info__value">72.<span>%7</span></p>
+            <p class="info__loyalty">Лояльность</p>
+            <p class="info__below-average">ниже среднего</p>
+            <p class="info__median">по отрасли: FMCG<br>значений слева от медианы<br>52.0% - 83.1%</p>
+
+            <div class="indicator">
+                <svg width="130" height="70" viewBox="-10 0 130 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <polygon points="00 50,50 0,100 50" class="triangle" stroke="#70A74B" fill="#70A74B" stroke-linejoin="round" stroke-width="10"/>
+                </svg>
+                <p>3.1</p>
+            </div>
+        </div>
+
+        <div class="caption">
+            <div class="item">
+                <p class="people">Промоутеры</p>
+                <div class="percentage">
+                    <p>32.0%</p>
+                    <div class="quantity">
+                        <p>81</p>
+                        <svg class="person" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.59 16.31">
+                            <use xlink:href="sprite.svg#person"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="growth">
+                    <svg width="35" height="40" viewBox="0 0 35 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0" y="0" width="35" height="30" fill="#70A74B"/>
+                        <rect x="0" y="30" width="30" height="10" fill="#B5D0A2"/>
+                    </svg>
+                    <p>+1.2%</p>
+                </div>
+            </div>
+            <div class="item">
+                <p class="people">Скептики</p>
+                <div class="percentage">
+                    <p>39.1%</p>
+                    <div class="quantity">
+                        <p>8</p>
+                        <svg class="person" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.59 16.31">
+                            <use xlink:href="sprite.svg#person"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="growth">
+                    <svg width="35" height="40" viewBox="0 0 35 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0" y="0" width="35" height="30" fill="#FBD229"/>
+                        <rect x="0" y="30" width="30" height="10" fill="#FAE691"/>
+                    </svg>
+                    <p>+4.8%</p>
+                </div>
+            </div>
+            <div class="item">
+                <p class="people">Критики</p>
+                <div class="percentage">
+                    <p>79.8%</p>
+                    <div class="quantity">
+                        <p>7</p>
+                        <svg class="person" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.59 16.31">
+                            <use xlink:href="sprite.svg#person"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="growth">
+                    <svg width="35" height="40" viewBox="0 0 35 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0" y="0" width="30" height="30" fill="#ED5243"/>
+                        <rect x="0" y="30" width="35" height="10" fill="#F3A69E"/>
+                    </svg>
+                    <p>-9.7%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
